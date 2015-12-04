@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
   get 'greeter/hello'
+  get 'greeter/goodbye' => "greeter#goodbye" #lamma ye3oz yroo7 l path bta3 greeter/goodbye => 
+                        # yeroo7 ll controller bta3 greeter#goodbye w meno hay4of el mafrood ya5od anhy view
+                        #elly hwa goodbye.html.erb
+
+
+
+
+
+
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
