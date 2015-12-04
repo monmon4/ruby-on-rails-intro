@@ -1,4 +1,8 @@
 
 <h1>Greetings <%= @name %></h1> <!--dah haywadeeny ll names elly fii el action bta3 el controler-->
-<p>The time now is <%= @time %></p>
+<p>The time now is <%= formatted_time(@time) %></p> <!--to get the time from the helper-->
 <p> this page has been viewed <%= @time_displayed%> times </p>
+
+
+<p> <%= link_to "Google", "http://www.google.com"%> </p> <!--how lik to works with a link -->
+<p> <%= link_to "Goodbye", greeter_goodbye_path %> </p> <!--how lik to works with a path that existes in my working directory -->
