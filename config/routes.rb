@@ -6,6 +6,10 @@ Rails.application.routes.draw do
                         # yeroo7 ll controller bta3 greeter#goodbye w meno hay4of el mafrood ya5od anhy view
                         #elly hwa goodbye.html.erb
 
+  root 'courses#index'
+  #you can have the root of your site rooted with 'root'
+  #root 'welcome#index'
+
 
 
 
