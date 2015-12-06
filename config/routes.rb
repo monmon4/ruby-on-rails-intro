@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'courses/index'
+
   get 'greeter/hello'
   get 'greeter/goodbye' => "greeter#goodbye" #lamma ye3oz yroo7 l path bta3 greeter/goodbye => 
                         # yeroo7 ll controller bta3 greeter#goodbye w meno hay4of el mafrood ya5od anhy view
